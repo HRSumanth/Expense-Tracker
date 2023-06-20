@@ -1,0 +1,67 @@
+.expenses-header {
+    margin-top: 20px;
+  }
+  
+  .no-expenses {
+    text-align: center;
+  }
+  
+  .expenses-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .expense-field {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .btn {
+    margin-top: 14px;
+    margin-bottom: 5px;
+  }
+
+  .btn button {
+    margin-right: 5px;
+  }
+  
+  .expense-list.dark {
+    color: #fff;
+    background-color: #121212;
+  }
+
+  .expense-item.dark {
+    color: #fff;
+    background-color: #222;
+  }
+
+.no-expenses.dark {
+  color: #888;
+}
+
+.btn.dark button,
+.activate-premium-btn.dark {
+  background-color: #ddd;
+  color: #000;
+}
+
+.btn.dark button:hover,
+.activate-premium-btn.dark:hover {
+  background-color: #ccc;
+}
+
+
+
+
+
+
+
